@@ -1,0 +1,36 @@
+{
+  "name": "node-fs",
+  "description": "node-expectation lets you specify code that will run whenever something happens.',
+  "version": "0.0.1",
+  "author": "Bruno Pedro <bpedro@tarpipe.com>",
+
+  "repository": {
+    "type" : "git",
+    "url": "git://github.com/bpedro/node-expectation.git"
+  },
+
+  "os": [ "linux", "darwin", "freebsd" ],
+
+  "devDependencies": {
+    "expresso": "*"
+  },
+
+  "scripts": {
+    "test": "expresso -q"
+  },
+
+  "directories": {
+    "lib": "./lib/"
+  },
+
+  "main": "./lib/expectation",
+
+  "engines": { 
+    "node": ">=0.1.97"
+  },
+
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "https://github.com/bpedro/node-expectation/raw/master/LICENSE"
+  }]
+}
