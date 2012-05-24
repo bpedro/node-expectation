@@ -1,7 +1,7 @@
 {
   "name": "node-expectation",
   "description": "node-expectation lets you specify code that will run whenever something happens.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Bruno Pedro <bpedro@tarpipe.com>",
 
   "repository": {
